@@ -9,8 +9,7 @@ RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
     rm ~/miniconda.sh
 
 ENV PATH /opt/conda/bin:/opt/conda/bin/conda:/opt/conda/bin/python:$PATH
-RUN /opt/conda/bin/conda install -y scipy numpy matplotlib ipython ipython-notebook 
-RUN conda install swig openblas
+RUN /opt/conda/bin/conda install -y scipy numpy matplotlib ipython ipython-notebook swig openblas
 
 WORKDIR /srcs
 
