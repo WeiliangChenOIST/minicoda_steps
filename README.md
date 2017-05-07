@@ -1,1 +1,1 @@
-# minicoda_steps
+# miniconda_steps
